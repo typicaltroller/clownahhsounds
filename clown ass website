@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <title> Clown ass soundboard </title>
+    <body>
+        <div class="menu-container">
+            <div class="button-container">
+            <button id="nerd"><img src="./nerd.jfif" width="100" height="100" ></button>
+            <button id="hellnah"><img src="./hellnah.jfif" width="100" height="100" ></button>
+            <button id="wedonotcare"><img src="./wedonotcare.jfif" width="100" height="100" ></button>
+            <button id="galaxy"><img src="./galaxy.jfif" width="100" height="100" ></button>
+            <button id="fnaf"><img src="./fnaf.jfif" width="100" height="100" ></button>
+            <button id="angrybirds"><img src="./angrybirds.png" width="100" height="100" ></button>
+            <button id="heheheha"><img src="./heheheha.jpg" width="100" height="100" ></button>
+            <button id="letsgoo"><img src="./letsgoo.jpg" width="100" height="100" ></button>
+            <button id="spotify"><img src="./spotify.png" width="100" height="100" ></button>
+            <button id="therock"><img src="./therock.jpg" width="100" height="100" ></button>
+            <button id="kahoot"><img src="./kahoot.png" width="100" height="100" ></button>
+            <button id="nae"><img src="./nae.png" width="100" height="100" ></button>
+            <button id="wizard"><img src="./wizard.jpg" width="100" height="100" ></button>
+            <button id="scream"><img src="./scream.jpg" width="100" height="100" ></button>
+            <button id="spotifyedit"><img src="./spotifyedit.png" width="100" height="100" ></button>
+            <button id="jet"><img src="./jet.png" width="100" height="100" ></button>
+
+            <script>
+                var nae = document.getElementById("nae")
+                var wizard = document.getElementById("wizard")
+                var fnaf = document.getElementById("fnaf")
+                var nerd = document.getElementById("nerd")
+                var galaxy = document.getElementById("galaxy")
+                var hellnah = document.getElementById("hellnah")
+                var scream = document.getElementById("scream")
+                var spotify = document.getElementById("spotify")
+                var spotifyedit = document.getElementById("spotifyedit")
+                var wedonotcare = document.getElementById("wedonotcare")
+                var angrybirds = document.getElementById("angrybirds")
+                var letsgoo = document.getElementById("letsgoo")
+                var jet = document.getElementById("jet")
+                var heheheha = document.getElementById("heheheha")
+                var therock = document.getElementById("therock")
+
+                var naeA = new Audio('./audio/nae.mp3')
+                var wizardA = new Audio('./audio/wizard.mp3')
+                var fnafA = new Audio('./audio/fnaf.mp3 ')
+                var nerdA = new Audio('./audio/nerd.mp3 ')
+                var galaxyA = new Audio('./audio/galaxy.mp3')
+                var hellnahA = new Audio('./audio/hellnah.mp3')
+                var screamA = new Audio('./audio/scream.mp3')
+                var spotifyA = new Audio('./audio/spotify.mp3')
+                var spotifyeditA = new Audio('./audio/spotifyedit.mp3')
+                var wedonotcareA = new Audio("/audio/wedonotcare.mp3")
+                var angrybirdsA = new Audio("/audio/angrybirds.mp3")
+                var letsgooA = new Audio("/audio/letsgoo.mp3")
+                var jetA = new Audio("/audio/jet.mp3")
+                var hehehehaA = new Audio("/audio/heheheha.mp3")
+                var therockA = new Audio("/audio/therock.mp3")
+
+                therock.addEventListener("click", function(){therock.currentTime = 0, therockA.play()})
+                heheheha.addEventListener("click", function(){heheheha.currentTime = 0, hehehehaA.play()})
+                jet.addEventListener("click", function(){jet.currentTime = 0, jetA.play()})
+                letsgoo.addEventListener("click", function(){letsgoo.currentTime = 0, letsgooA.play()})
+                nae.addEventListener("click", function(){
+                    naeA.currentTime = 0
+                    naeA.play();
+                })
+                wizard.addEventListener("click", function(){
+                    wizardA.currentTime = 0
+                    wizardA.play();
+                })
+                fnaf.addEventListener("click", function(){
+                    fnafA.currentTime = 0
+                    fnafA.play();
+                })
+                nerd.addEventListener("click", function(){
+                    nerdA.currentTime = 0
+                    nerdA.play();
+                })
+                galaxy.addEventListener("click", function(){
+                    galaxyA.currentTime = 0
+                    galaxyA.play();
+                })
+                hellnah.addEventListener("click", function(){
+                    hellnahA.currentTime = 0
+                    hellnahA.play();
+                })
+                scream.addEventListener("click", function(){
+                    screamA.currentTime = 0
+                    screamA.play();
+                })
+                spotify.addEventListener("click", function(){
+                    spotifyA.currentTime = 0
+                    spotifyA.play();
+                })
+                spotifyedit.addEventListener("click", function(){
+                    spotifyeditA.currentTime = 0
+                    spotifyeditA.play();
+                })
+                wedonotcare.addEventListener("click", function(){wedonotcare.currentTime = 0, wedonotcareA.play()})
+                angrybirds.addEventListener("click", function(){angrybirds.currentTime = 0, angrybirdsA.play()})
+                </script>
+         </div>
+      </div>
+    </body>
+</head>
