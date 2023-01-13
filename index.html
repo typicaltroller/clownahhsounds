@@ -22,6 +22,12 @@
             <button id="scream"><img src="./scream.jpg" width="100" height="100" ></button>
             <button id="spotifyedit"><img src="./spotifyedit.png" width="100" height="100" ></button>
             <button id="jet"><img src="./jet.png" width="100" height="100" ></button>
+            <button id="spongebob"><img src="./spongebob.png" width="100" height="100" ></button>
+            <button id="spiderman"><img src="./spiderman.jpg" width="100" height="100" ></button>
+            <button id="lg"><img src="./lg.png" width="100" height="100" ></button>
+            <button id="goofyahhwalk"><img src="./goofyahhwalk.png" width="100" height="100" ></button>
+            <button id="tada"><img src="./tada.png" width="100" height="100" ></button>
+            <button id="koreangamer"><img src="./koreangamer.png" width="100" height="100" ></button>
 
             <script>
                 var nae = document.getElementById("nae")
@@ -39,7 +45,14 @@
                 var jet = document.getElementById("jet")
                 var heheheha = document.getElementById("heheheha")
                 var therock = document.getElementById("therock")
-
+                var spongebob = document.getElementById("spongebob")
+                var spiderman = document.getElementById("spiderman")
+                var lg = document.getElementById("lg")
+                var goofyahhwalk = document.getElementById("goofyahhwalk")
+                var tada = document.getElementById("tada")
+                var koreangamer = document.getElementById("koreangamer")
+                
+                var tadaA = new Audio("/audio/tada.mp3")
                 var naeA = new Audio('./audio/nae.mp3')
                 var wizardA = new Audio('./audio/wizard.mp3')
                 var fnafA = new Audio('./audio/fnaf.mp3 ')
@@ -55,11 +68,22 @@
                 var jetA = new Audio("/audio/jet.mp3")
                 var hehehehaA = new Audio("/audio/heheheha.mp3")
                 var therockA = new Audio("/audio/therock.mp3")
+                var spongebobA = new Audio("/audio/spongebob.mp3")
+                var spidermanA = new Audio("/audio/spiderman.mp3")
+                var lgA = new Audio("/audio/lg.mp3")
+                var goofyahhwalkA = new Audio("/audio/goofyahhwalk.mp3")
+                var koreangamerA = new Audio("/audio/koreangamer.mp3")
 
-                therock.addEventListener("click", function(){therock.currentTime = 0, therockA.play()})
-                heheheha.addEventListener("click", function(){heheheha.currentTime = 0, hehehehaA.play()})
-                jet.addEventListener("click", function(){jet.currentTime = 0, jetA.play()})
-                letsgoo.addEventListener("click", function(){letsgoo.currentTime = 0, letsgooA.play()})
+                koreangamer.addEventListener("click", function(){koreangamer.currentTime = 0, koreangamerA.play()})
+                tada.addEventListener("click", function(){tadaA.currentTime = 0, tadaA.play();})
+                goofyahhwalk.addEventListener("click", function(){goofyahhwalkA.currentTime = 0, goofyahhwalkA.play();})
+                lg.addEventListener("click", function(){lgA.currentTime = 0, lgA.play();})
+                spiderman.addEventListener("click", function(){spidermanA.currentTime = 0, spidermanA.play();})
+                spongebob.addEventListener("click", function(){spongebobA.currentTime = 0, spongebobA.play();})
+                therock.addEventListener("click", function(){therockA.currentTime = 0, therockA.play();})
+                heheheha.addEventListener("click", function(){hehehehaA.currentTime = 0, hehehehaA.play();})
+                jet.addEventListener("click", function(){jetA.currentTime = 0, jetA.play();})
+                letsgoo.addEventListener("click", function(){letsgooA.currentTime = 0, letsgooA.play();})
                 nae.addEventListener("click", function(){
                     naeA.currentTime = 0
                     naeA.play();
