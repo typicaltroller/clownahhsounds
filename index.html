@@ -28,7 +28,8 @@
             <button id="goofyahhwalk"><img src="./goofyahhwalk.png" width="100" height="100" ></button>
             <button id="tada"><img src="./tada.png" width="100" height="100" ></button>
             <button id="koreangamer"><img src="./koreangamer.png" width="100" height="100" ></button>
-
+            <button id="wizardyensidpart2"><img src="./wizardyensidpart2.png" width="100" height="100" ></button>
+                
             <script>
                 var nae = document.getElementById("nae")
                 var wizard = document.getElementById("wizard")
@@ -51,6 +52,7 @@
                 var goofyahhwalk = document.getElementById("goofyahhwalk")
                 var tada = document.getElementById("tada")
                 var koreangamer = document.getElementById("koreangamer")
+                var wizardyensidpart2 = document.getElementById("wizardyensidpart2")
                 
                 var tadaA = new Audio("/audio/tada.mp3")
                 var naeA = new Audio('./audio/nae.mp3')
@@ -73,7 +75,9 @@
                 var lgA = new Audio("/audio/lg.mp3")
                 var goofyahhwalkA = new Audio("/audio/goofyahhwalk.mp3")
                 var koreangamerA = new Audio("/audio/koreangamer.mp3")
-
+                var wizardyensidpart2A = new Audio("/audio/wizardyensidpart2.mp3")
+                
+                wizardyensidpart2.addEventListener("click", function(){wizardyensidpart2A.currentTime = 0, wizardyensidpart2A.play()})
                 koreangamer.addEventListener("click", function(){koreangamer.currentTime = 0, koreangamerA.play()})
                 tada.addEventListener("click", function(){tadaA.currentTime = 0, tadaA.play();})
                 goofyahhwalk.addEventListener("click", function(){goofyahhwalkA.currentTime = 0, goofyahhwalkA.play();})
